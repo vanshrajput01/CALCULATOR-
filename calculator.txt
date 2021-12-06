@@ -1,0 +1,25 @@
+class Calculator:
+    def __init__(self,frist_value,second_value): # init is cantractor that is create the object
+        self.firstvalue=frist_value
+        self.secondvalue=second_value
+    def add(self):
+        add=self.firstvalue+self.secondvalue # add is variable
+        print(f"ADDTION OF {self.firstvalue} AND {self.secondvalue} IS EQUAL TO {add}")
+    def subtraction(self):
+        sub=self.firstvalue-self.secondvalue # sub is also a variable
+        print(f"SUBTRACTION OF {self.firstvalue} AND {self.secondvalue} IS EQUAL TO {sub}")
+    def multiplication(self):
+        mul=self.firstvalue*self.secondvalue # mul is variable
+        print(f"MULTIPLICTION OF {self.firstvalue} AND {self.secondvalue} IS EQUAL TO {mul}")
+    def division(self):
+        div=self.firstvalue//self.secondvalue # div is variable  
+        print(f"MULTIPLICTION OF {self.firstvalue} AND {self.secondvalue} IS EQUAL TO {div}")
+        
+obj1=Calculator(3,4) 
+obj1.add()
+obj2=Calculator(10,5)
+obj2.subtraction()
+obj3=Calculator(10,5)
+obj3.multiplication()
+obj3=Calculator(10,5)
+obj3.division()
